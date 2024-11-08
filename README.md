@@ -34,13 +34,19 @@ The criteria set for an abnormal signal is a reconstruction error of two standar
 
 ## Scripts
 main.py -> main script to prepare data, train, and evaluate the model
+
 config.yaml -> configuration markup file for initializing model training and declaring training callbacks
+
 data_prep.py -> helper functions for preparing the HDF5 datasets
+
 model.py -> contains Keras-based autoencoder model architecture class
+
 evaluation.py -> evaluation functions to generate evaluation metrics for trained model
+
 trainer.py -> functions for compiling and training the model
+
 utils.py -> helper functions for data visualization
 
-## Training
+## Training & Evaluation
 The training begins from setting the necessary parameters in the config file. After that, all you need to do is run main.py and the model training should start. Once the model has trained, it will save the model and evaluate its accuracy, precision, and recall. 
 execute main.py to train 
