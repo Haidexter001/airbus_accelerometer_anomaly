@@ -1,6 +1,9 @@
 # Airbus Accelerometer Anomaly Detection
 Autoencoder training pipeline for anomalous acceleration detection in Airbus Helicopter Accelerometer dataset
 
+## Dependencies
+
+The package was created using Python 3.11 and mainly uses Tensorflow 2.18 and Scikit-learn for all machine learning functionality
 
 ## Dataset
 ### Description
