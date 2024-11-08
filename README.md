@@ -4,7 +4,8 @@ Autoencoder training pipeline for anomalous acceleration detection in Airbus Hel
 
 ## Dataset
 ### Description
-According to the source: 
+**From the source: **
+https://www.research-collection.ethz.ch/handle/20.500.11850/415151
 
 The training dataset is composed of 1677 one-minute-sequences @1024Hz of accelerometer data measured on test helicopters at various locations, in various angles (X, Y, Z), on different flights. All data has been multiplied by a factor so that absolute values are meaningless, but no other normalization procedure was carried out. All sequences are considered as normal and should be used to learn normal behaviour of accelerometer data.
 
