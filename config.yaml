@@ -1,0 +1,18 @@
+input:
+    normal_dataset: data/dftrain.h5
+    abnormal_dataset: data/dfvalid.h5
+
+train:
+    save_model_name: airbus_anomaly_autoencoder
+    learning_rate: 0.001
+    loss: mae
+    weights: None
+    epochs: 5
+    val_split: 0.2
+    seed: 21
+    batch_size: 512
+    
+callbacks:
+    checkpoint_dir: saved_model/
+    patience: 10
+    monitor: val_loss
