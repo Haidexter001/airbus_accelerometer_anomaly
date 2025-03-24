@@ -1,5 +1,5 @@
 # Airbus Accelerometer Anomaly Detection
-Autoencoder training package for anomalous acceleration detection in Airbus Helicopter Accelerometer dataset
+LSTM training package for my attempt at the anomalous acceleration detection in Airbus Helicopter Accelerometer dataset
 
 ## Dependencies
 Tested with:
